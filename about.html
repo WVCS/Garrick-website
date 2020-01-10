@@ -1,7 +1,59 @@
 <html>
+  <h1>My Name is Garrick and this is the website that lets you look at the work I have completed in my Graphic Design class</h1>
+  <p>Click on "Complete Collection" to see all my projects</p>
+  <style>
+body {
+  text-align: center;
+}
+  ul {
+  list-style-type: none;
+  -webkit-align-items: center;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+   align-items: center;
+
+   
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #F74A04;
+  color: white;
+}
+
+li:hover:not(.active) {
+  background-color: #50ACE1;
+  color: white;
+}
+</style>
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="APCSP.html">APCSP Work</a></li>
+  <li><a class="active" href="about.html">Graphic Design</a></li>
+</ul>
+
+</body>
 <body style="background-color:powderblue;">
 <center>
-<h1>My Name is Garrick and this is some of the work I have completed in my Graphic Design class</h1>
   <iframe src="https://muellergarrick.wixsite.com/muellergalleries"width="1000" height="1070"></iframe>
 <p>If you wish to see the projects I have created in my AP Computer Science class, go back to the Home page and click on the APCSP button.</p>
 </center>
